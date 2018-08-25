@@ -1,0 +1,295 @@
+
+* {
+      /* NEW MATERIAL FROM YOUTUBE VIDEO  */
+    box-sizing: border-box;
+    /* END OF NEW MATERIAL */
+}
+
+
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+body {
+    
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
+    background: URL(../images/country-quilt.png);
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.top {
+    /* width: 100%; */
+    background: white;
+    /* new material */
+    margin: 0 0 30px;
+    z-index: 99;
+    overflow: auto;
+    position: fixed;
+    /* END OF NEW CONTENT */
+    position: relative;
+    padding: 40px;
+    
+}
+
+/* I STILL NEED TO FIND A WAY TO KEEP MY NAME AND THE NAV BAR CENTERED 
+AND WITHIN A 960-PIXEL-SPAN ON THE NAV BAR */
+
+/* .top {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: block;
+    background: white;
+    padding: 40px;
+    margin: 0 0 40px 0;
+} */
+
+.topnav {
+    /* clear: both;
+    position: absolute;
+    right: 150px;
+    bottom: -5px;  
+    list-style-type: none; */
+    /* NEW HTML */
+    float: right;
+    /* margin-top: 20%; */
+}
+
+nav a {
+    color: #999;
+    text-decoration: none;
+    margin-left: 15px;
+    display: inline-block;
+    border-left: 1px solid #efefef;
+    padding-left: 15px;
+    line-height: 18px;
+}
+
+nav a:first-child {
+    border-left: 0 none;
+}
+
+li {
+    display: inline-block;
+    width: 30px;
+    padding-left: 40px;
+}
+
+hr {
+    border-color:#e1e1e1;
+    background-color: #e1e1e1;
+    width: 95%;
+}
+
+#myname {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 30px;
+    /* padding: 10px 35px; 
+    position: absolute;
+    left: 0;
+    bottom: -17px;
+    left: 200px; */
+    /* new content */
+    width: 275px;
+    height: 90px;
+    text-align: center;
+    float: left;
+    line-height: 90px;
+    /* end new content */
+    
+}
+
+.pagename {
+    color: #4aaaa5;
+    padding-left: 25px;
+}
+
+a {
+  color: #777777;  
+  text-decoration: none;
+}
+
+.topnav a:hover {
+    color: red;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: block;
+    background: white;
+}
+
+.site-footer {
+    background: #666666;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    border-top: 5px #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+    font-size: 12px;
+    border-top-style: solid;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    overflow: auto;
+}
+
+.column {
+    column-count: 2;
+    float: left;
+    margin-left: 20px;
+}
+
+#submit {
+    background:#4aaaa5;
+    color: #ffffff;
+    padding: 6px 18px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.portfolio {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.bio {
+    line-height: 2em;
+    font-size: 22px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-left: 25px;
+}
+
+#selfie {
+    float: left;
+    Margin: 10px 15px 5px 25px;
+}
+
+.container {
+    position: relative; 
+    width: 329px; 
+    height: 324px;
+    box-align: left;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 23px;
+    background-color: #4aaaa5; 
+    color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 23px;
+}
+
+/* I STILL NEED TO FIND A WAY TO KEEP THE TEXT-BLOCKS WITHIN THE BORDERS 
+OF THE IMAGES IN MY PORTFOLIO.  */
+
+/* .clearfix::after{
+    content:"";
+    display:block;
+    clear:both;
+    margin:0;
+  } */
+
+label {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+
+b {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+/* I STILL NEED TO FIND A WAY TO MAKE THE 'NAME' AND 'EMAIL' FORM SPAN 
+THE WHOLE DIV. */
+
+form {
+    margin-left: 25px;
+}
+
+.formdivs {
+    margin-bottom: 10px;
+}
+
+textarea {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 980px) {
+    body {
+    
+        max-width: 960px;
+        width: 100%;
+        margin: 0 auto;
+        clear: both;
+        background: URL(../images/country-quilt.png);
+        box-align: left;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 640px) {
+    
+    .topnav {
+        box-align: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    
+    #selfie {
+        box-align: center;
+        margin: 5%;
+        width: 80%;
+        clear: right;
+    }
+    .myname {
+        width: 100%;
+        box-align: center;
+    }
+    .bio {
+        font-size: 15px;
+        margin-right: 5%;
+        width: 100%;
+    }
+    .wrapper {
+        width: 90%;
+        box-align: center;
+    }
+
+    .pagename {
+        width: 100%;
+    }
+
+    
+}
