@@ -252,11 +252,23 @@ textarea {
         box-align: left;
     }
 
+    .wrapper {
+        width: 60%;
+    }
+
 }
 
 @media (max-width: 768px) {
-
+    .wrapper {
+        width: 90%;
+    
+    }
+    .top {
+        padding: 20px;
+    }
+    
 }
+
 
 @media (max-width: 640px) {
     
@@ -264,6 +276,13 @@ textarea {
         box-align: center;
         width: 100%;
         margin-top: 10px;
+        font-size: 30px;
+        clear: both;
+        text-align: center;
+    }
+
+    .top {
+        padding: 0px;
     }
 
     
@@ -271,16 +290,20 @@ textarea {
         box-align: center;
         margin: 5%;
         width: 80%;
-        clear: right;
+        clear: both;
+       
     }
-    .myname {
+    #myname {
         width: 100%;
         box-align: center;
+        font-size: 50px;
     }
     .bio {
         font-size: 15px;
         margin-right: 5%;
         width: 100%;
+        clear: left;
+        margin-bottom: 10px;
     }
     .wrapper {
         width: 90%;
@@ -291,5 +314,19 @@ textarea {
         width: 100%;
     }
 
+    .footer {
+        position: relative;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    label {
+        font-size: 20px;
+    }
     
+    #message {
+        width: 95%;
+    }
 }
